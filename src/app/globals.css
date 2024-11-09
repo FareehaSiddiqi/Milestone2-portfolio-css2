@@ -1,21 +1,39 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+ */
+*{
+  margin: 0px;
+  padding: 0px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+ .Navbar ul>li{
+  display: inline-block;
+  height: 50px;
+  width: 20%;
+  background-color: aqua;
+  
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.hero{
+  height: 500px;
+  background-color: rgb(156, 77, 180);
+  font-family: sans-serif;
+  font-size: medium;
+}
+.about{
+  height: 500px;
+  background-color: rgb(209, 175, 219);
+  font-family: sans-serif;
+  font-size: medium;
+}
+.projects{
+  height: 500px;
+  background-color: rgb(209, 175, 219);
+  font-family: sans-serif;
+  font-size: medium;
+}
+.contact{
+  height: 500px;
+  background-color: rgb(209, 175, 219);
+  font-family: sans-serif;
+  font-size: medium;
 }
